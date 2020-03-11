@@ -1,0 +1,4 @@
+name: uswds
+recipe: drupal8
+config:
+  webroot: .
