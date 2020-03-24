@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "192d0ff6d32369cfb485878e4066b501",
+    "content-hash": "8fad2cdd1aeb363ce7efc4d17bec62d9",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1080,17 +1080,11 @@
         },
         {
             "name": "drupal/uswds",
-            "version": "2.0.0",
+            "version": "dev-2.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/uswds.git",
-                "reference": "8.x-2.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/uswds-8.x-2.0.zip",
-                "reference": "8.x-2.0",
-                "shasum": "35c2e58496f33aa0bab1b10a784ebc7085d52d6d"
+                "reference": "de427470a61bff0555d6a5c394d63475bb34f367"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1101,8 +1095,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0",
-                    "datestamp": "1581966281",
+                    "version": "8.x-2.0+2-dev",
+                    "datestamp": "1582042466",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -1132,7 +1126,8 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/uswds",
                 "issues": "https://www.drupal.org/project/issues/uswds?categories=All"
-            }
+            },
+            "time": "2020-03-16T14:44:58+00:00"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -3684,7 +3679,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/uswds": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

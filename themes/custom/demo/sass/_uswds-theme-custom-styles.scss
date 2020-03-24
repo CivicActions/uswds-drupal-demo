@@ -19,3 +19,28 @@ i.e.
 @include u-padding-right('05');
 ----------------------------------------
 */
+
+// Gov banner
+.usa-banner {
+  .usa-banner__button {
+    color: color('secondary-dark');
+  }
+}
+
+// Buttons
+.usa-button--secondary {
+  color: color('ink');
+  &.usa-button--unstyled {
+    color: color('primary');
+  }
+}
+
+// Header
+.usa-header {
+  .usa-logo {
+    img {
+      max-height: 150px;
+      width: auto;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+name: Demo Content
+type: module
+description: Base Content for Demo
+core: 8.x
+package: DEMO
