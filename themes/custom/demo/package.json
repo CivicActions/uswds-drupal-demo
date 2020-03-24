@@ -1,12 +1,6 @@
 {
   "name": "uswds-demo",
   "version": "1.0.0",
-  "scripts": {
-    "prebuild:css": "node-sass --include-path scss sass/uswds.scss assets/css/uswds.css",
-    "build:css": "postcss --use autoprefixer -b 'last 2 versions' < assets/css/uswds.css | postcss --use cssnano --map -o assets/css/uswds.min.css",
-    "build": "npm run build:css",
-    "build:watch": "watch 'npm run build' sass"
-  },
   "devDependencies": {
     "autoprefixer": "^9.7.5",
     "cssnano": "^4.1.10",
