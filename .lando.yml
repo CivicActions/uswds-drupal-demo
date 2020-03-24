@@ -2,3 +2,17 @@ name: uswds
 recipe: drupal8
 config:
   webroot: .
+services:
+  nodeserver:
+    type: node:13
+    run:
+      - "cd /app/themes/custom/demo && yarn install"
+    globals:
+      yarn: 'latest'
+tooling:
+  node:
+    service: nodeserver
+  npm:
+    service: nodeserver
+  yarn:
+    service: nodeserver
