@@ -7,6 +7,7 @@ services:
     type: node:13
     run:
       - "cd /app/themes/custom/demo && yarn install"
+      - "cd /app/themes/custom/demo && yarn gulp build-sass"
     globals:
       yarn: 'latest'
 tooling:
