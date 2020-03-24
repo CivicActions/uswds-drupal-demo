@@ -45,3 +45,4 @@ profiles/contrib
 sites/default/files
 themes/contrib
 private/
+example.gitignore
