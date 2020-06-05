@@ -19,3 +19,10 @@ i.e.
 @include u-padding-right('05');
 ----------------------------------------
 */
+
+.usa-banner {
+  //background-color: color("base-light");
+  .usa-banner__button {
+    color: color('secondary-dark');
+  }
+}
