@@ -1,0 +1,63 @@
+/*
+----------------------------------------
+General
+----------------------------------------
+*/
+
+$theme-image-path: "../assets/img";
+$theme-show-compile-warnings: false;
+$theme-show-notifications: false;
+
+/*
+----------------------------------------
+Typography
+----------------------------------------
+*/
+
+$theme-font-path: "../assets/fonts";
+
+/*
+----------------------------------------
+Spacing
+----------------------------------------
+*/
+
+/*
+----------------------------------------
+Color
+----------------------------------------
+*/
+
+// Primary colors
+$theme-color-primary-family: "gold";
+$theme-color-primary-lightest: false;
+$theme-color-primary-lighter: "gold-5v";
+$theme-color-primary-light: "yellow-10v";
+$theme-color-primary: "gold-20v";
+$theme-color-primary-vivid: "yellow-20v";
+$theme-color-primary-dark: "gold-30v";
+$theme-color-primary-darker: "orange-40v";
+$theme-color-primary-darkest: false;
+
+// Secondary colors
+$theme-color-secondary-family: "cyan";
+$theme-color-secondary-lightest: false;
+$theme-color-secondary-lighter: "cyan-10";
+$theme-color-secondary-light: "cyan-20";
+$theme-color-secondary: "cyan-30";
+$theme-color-secondary-vivid: "cyan-20v";
+$theme-color-secondary-dark: "cyan-30v";
+$theme-color-secondary-darker: "cyan-40v";
+$theme-color-secondary-darkest: false;
+
+/*
+----------------------------------------
+Utilities
+----------------------------------------
+*/
+
+/*
+----------------------------------------
+Components
+----------------------------------------
+*/
