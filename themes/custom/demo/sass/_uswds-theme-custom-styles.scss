@@ -30,4 +30,7 @@ i.e.
 // Buttons
 .usa-button--secondary {
   color: color(ink);
+  &.usa-button--unstyled {
+    color: color('primary');
+  }
 }
