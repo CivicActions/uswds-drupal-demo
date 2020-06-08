@@ -1,0 +1,7 @@
+demo_content.homepage:
+  path: 'home'
+  defaults:
+    _controller: '\Drupal\demo_content\Controller\Homepage::index'
+    _title: 'Welcome to the Demo!'
+  requirements:
+    _permission: 'access content'
