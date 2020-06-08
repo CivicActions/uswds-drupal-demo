@@ -16,6 +16,41 @@ Typography
 
 $theme-font-path: "../assets/fonts";
 
+$theme-typeface-tokens: (
+  nunito: (
+    display-name: "Nunito",
+    cap-height: 364px
+  )
+);
+
+$theme-font-type-sans: "nunito";
+$theme-font-sans-custom-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$theme-font-sans-custom-src: (
+  dir: "nunito",
+  roman: (
+    100: false,
+    200: false,
+    300: 'Nunito-SemiBold',
+    400: 'Nunito-SemiBold',
+    500: false,
+    600: 'Nunito-SemiBold',
+    700: 'Nunito-Bold',
+    800: false,
+    900: false,
+  ),
+  italic: (
+    100: false,
+    200: false,
+    300: false,
+    400: false,
+    500: false,
+    600: false,
+    700: false,
+    800: false,
+    900: false
+  )
+);
+
 /*
 ----------------------------------------
 Spacing
