@@ -24,16 +24,12 @@ function demo_form_search_block_form_alter(&$form, FormStateInterface $form_stat
   $form['keys']['#prefix'] = '<div role="search">';
     $form['actions']['#suffix'] = '</div>';
 
-  // Remove the "value" so that the search button is only the icon, but hack
-  // around the submit button for accessibility reasons.
+  // Remove the value to use button and add SR label and aria-label.
   $form['actions']['submit']['#value'] = '';
   $form['actions']['submit']['#prefix'] = '<span class="usa-sr-only">Search</span>';
   $form['actions']['submit']['#attributes']['aria-label'] = 'Submit Search';
+  // Unique ID for actions.
   $form['actions']['#attributes']['id'] = "search-actions";
-
-  // Substituting `edit-submit` with `search-form--submit`. This is
-  // a known core bug. The ID `search-form--submit` is the proposed
-  // replacement ID for search blocks.
-  // https://www.drupal.org/project/drupal/issues/2938842
+  // Unique ID for search form submit.
   $form['actions']['submit']['#id'] = 'search-form--submit';
 }
