@@ -20,9 +20,14 @@ i.e.
 ----------------------------------------
 */
 
+// Gov banner
 .usa-banner {
-  //background-color: color("base-light");
   .usa-banner__button {
     color: color('secondary-dark');
   }
+}
+
+// Buttons
+.usa-button--secondary {
+  color: color(ink);
 }
