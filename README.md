@@ -9,5 +9,6 @@
 ## Lando
 For more information on how to use lando visit: https://docs.lando.dev/
 ## Running gulp
-From the theme root use `lando yarn gulp`
+From the theme root use `lando yarn install` then you can use `lando yarn gulp`
+
 For example, to build sass you would run `lando yarn gulp build-sass` or to watch sass use `lando yarn gulp watch`
