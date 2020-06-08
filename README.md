@@ -4,4 +4,10 @@
 * Clone this repo
 * Run `lando start`
 * Run `lando composer install`
-* Run `lando db-import drupal8.2020-03-24-1585085259.sql.gz`
+* Run `lando db-import uswds-demo-db.sql.gz`
+
+## Lando
+For more information on how to use lando visit: https://docs.lando.dev/
+## Running gulp
+From the theme root use `lando yarn gulp`
+For example, to build sass you would run `lando yarn gulp build-sass` or to watch sass use `lando yarn gulp watch`
