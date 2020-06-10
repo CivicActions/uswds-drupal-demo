@@ -34,3 +34,13 @@ i.e.
     color: color('primary');
   }
 }
+
+// Header
+.usa-header {
+  .usa-logo {
+    img {
+      max-height: 150px;
+      width: auto;
+    }
+  }
+}
