@@ -24,6 +24,16 @@ i.e.
 .usa-banner {
   .usa-banner__button {
     color: color('secondary-dark');
+    &::after,
+    &:hover::after {
+      background-image: url('#{$theme-image-path}/angle-arrow-down-cyan-30v.svg');
+    }
+    &[aria-expanded=true] {
+      &::after,
+      &:hover::after {
+        background-image: url('#{$theme-image-path}/angle-arrow-up-cyan-30v.svg');
+      }
+    }
   }
 }
 
