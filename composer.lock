@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8fad2cdd1aeb363ce7efc4d17bec62d9",
+    "content-hash": "f08d2be1ee0877994684a0773c2939f4",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -241,6 +241,50 @@
                 "versioning"
             ],
             "time": "2019-03-19T17:25:45+00:00"
+        },
+        {
+            "name": "cweagans/composer-patches",
+            "version": "1.6.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cweagans/composer-patches.git",
+                "reference": "2e6f72a2ad8d59cd7e2b729f218bf42adb14f590"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/2e6f72a2ad8d59cd7e2b729f218bf42adb14f590",
+                "reference": "2e6f72a2ad8d59cd7e2b729f218bf42adb14f590",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0",
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "cweagans\\Composer\\Patches"
+            },
+            "autoload": {
+                "psr-4": {
+                    "cweagans\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Cameron Eagans",
+                    "email": "me@cweagans.net"
+                }
+            ],
+            "description": "Provides a way to patch Composer packages.",
+            "time": "2019-08-29T20:11:49+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -1084,7 +1128,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/uswds.git",
-                "reference": "de427470a61bff0555d6a5c394d63475bb34f367"
+                "reference": "c1a43b3ccd79cdffba4d0cbe3a71763405aff95e"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1095,12 +1139,15 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0+2-dev",
-                    "datestamp": "1582042466",
+                    "version": "8.x-2.0+9-dev",
+                    "datestamp": "1593835026",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
                     }
+                },
+                "patches_applied": {
+                    "search block": "https://www.drupal.org/files/issues/2020-06-26/uswds-add-optional-search-block-preprocess-3150702-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1127,19 +1174,20 @@
                 "source": "http://cgit.drupalcode.org/uswds",
                 "issues": "https://www.drupal.org/project/issues/uswds?categories=All"
             },
-            "time": "2020-03-16T14:44:58+00:00"
+            "time": "2020-07-04T04:09:01+00:00"
         },
         {
             "name": "easyrdf/easyrdf",
             "version": "0.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/njh/easyrdf.git",
+                "type": "git",
+                "url": "https://github.com/easyrdf/easyrdf.git",
                 "reference": "acd09dfe0555fbcfa254291e433c45fdd4652566"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/njh/easyrdf/zipball/acd09dfe0555fbcfa254291e433c45fdd4652566",
+                "url": "https://api.github.com/repos/easyrdf/easyrdf/zipball/acd09dfe0555fbcfa254291e433c45fdd4652566",
                 "reference": "acd09dfe0555fbcfa254291e433c45fdd4652566",
                 "shasum": ""
             },
