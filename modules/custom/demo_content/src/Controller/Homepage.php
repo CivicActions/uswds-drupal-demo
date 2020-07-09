@@ -16,7 +16,7 @@ class Homepage extends ControllerBase {
    */
   public function index() {
 
-    return [
+    $static_buttons = [
       '#type' => 'inline_template',
       '#template' => "
                       <h2>Default</h2>
@@ -66,8 +66,12 @@ class Homepage extends ControllerBase {
                       <h2>Big button</h2>
                       <button class=\"usa-button usa-button--big\">Default</button>
                       <button class=\"usa-button usa-button--big usa-button--unstyled\">Unstyled button</button>
-
       ",
+    ];
+
+
+    return [
+      $static_buttons,
     ];
   }
 }

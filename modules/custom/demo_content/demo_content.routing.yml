@@ -5,3 +5,10 @@ demo_content.homepage:
     _title: 'Welcome to the Demo!'
   requirements:
     _permission: 'access content'
+demo_content.test_form:
+  path: '/test-form'
+  defaults:
+    _form: '\Drupal\demo_content\Form\TestForm'
+    _title: 'Test Form'
+  requirements:
+    _permission: 'access content'

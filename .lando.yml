@@ -2,6 +2,7 @@ name: uswds
 recipe: drupal8
 config:
   webroot: .
+  xdebug: true
 services:
   nodeserver:
     type: node:13
