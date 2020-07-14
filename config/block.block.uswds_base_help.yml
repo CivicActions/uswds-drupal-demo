@@ -1,17 +1,17 @@
-uuid: 0097f54a-65ad-4cfa-836c-3802acd9b11d
+uuid: 06738914-0d3d-4b95-8d93-7494008f78d4
 langcode: en
 status: true
 dependencies:
   module:
     - help
   theme:
-    - demo
+    - uswds_base
 _core:
-  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
-id: demo_help
-theme: demo
-region: content
-weight: -4
+  default_config_hash: kZYm0IFDqdGZFVnT4IcGM4VknJc3u4SBbsI71Gz8qFM
+id: uswds_base_help
+theme: uswds_base
+region: help
+weight: -30
 provider: null
 plugin: help_block
 settings:

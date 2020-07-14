@@ -4,24 +4,25 @@ features:
   comment_user_verification: 1
   favicon: 1
 logo:
-  use_default: 1
+  use_default: 0
+  path: themes/custom/demo/images/uswds_seal_dept-of-cms_04a.png
 favicon:
   use_default: 1
-uswds_header_style: extended
+uswds_header_style: basic
 uswds_header_mega: 0
 uswds_government_banner: 1
-uswds_footer_style: slim
-uswds_footer_agency: 0
-uswds_footer_agency_name: ''
-uswds_footer_agency_url: ''
-uswds_footer_agency_logo: ''
-uswds_contact_center: ''
+uswds_footer_style: medium
+uswds_footer_agency: 1
+uswds_footer_agency_name: 'Department of CMS'
+uswds_footer_agency_url: '<front>'
+uswds_footer_agency_logo: images/uswds_seal_dept-of-cms_04a.png
+uswds_contact_center: 'Contact Info'
 uswds_email: ''
-uswds_phone: ''
-uswds_facebook: ''
-uswds_twitter: ''
-uswds_youtube: ''
-uswds_rss: ''
+uswds_phone: 555-555-5555
+uswds_facebook: 'http://facebook.com'
+uswds_twitter: 'http://twitter.com'
+uswds_youtube: 'http://youtube.com'
+uswds_rss: /rss
 uswds_paragraphs_edge_to_edge: 0
 uswds_menu_accordion_duplicate_parent: 1
 uswds_menu_bypass:
@@ -30,3 +31,6 @@ uswds_menu_bypass:
   sidebar_first: 0
   sidebar_second: 0
   footer_menu: 0
+uswds_header_mega_display_second: 0
+uswds_search_bypass: 0
+uswds_search_style: small

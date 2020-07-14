@@ -1,15 +1,15 @@
-uuid: 4300b3b4-4c22-4a15-a457-87b7b1bb8cd3
+uuid: 504984b3-3884-40b3-a5e9-573af1aa54a4
 langcode: en
 status: true
 dependencies:
   theme:
-    - demo
+    - uswds_base
 _core:
-  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
-id: demo_local_actions
-theme: demo
+  default_config_hash: WvhJomAnIQT0keg1Yz2xbxmqzqT4vGCfSbSK2M6XQLs
+id: uswds_base_local_actions
+theme: uswds_base
 region: content
-weight: -3
+weight: 10
 provider: null
 plugin: local_actions_block
 settings:

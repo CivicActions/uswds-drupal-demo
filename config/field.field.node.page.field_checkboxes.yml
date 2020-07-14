@@ -1,0 +1,21 @@
+uuid: 5132435b-322b-4b7c-959d-4389aaab1e47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_checkboxes
+    - node.type.page
+  module:
+    - options
+id: node.page.field_checkboxes
+field_name: field_checkboxes
+entity_type: node
+bundle: page
+label: Checkboxes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_float

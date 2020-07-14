@@ -1,17 +1,17 @@
-uuid: 0097f54a-65ad-4cfa-836c-3802acd9b11d
+uuid: fb195e45-6d2a-4041-bcda-30d52e898cf8
 langcode: en
 status: true
 dependencies:
   module:
     - help
   theme:
-    - demo
+    - new_theme
 _core:
   default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
-id: demo_help
-theme: demo
+id: new_theme_help
+theme: new_theme
 region: content
-weight: -4
+weight: -30
 provider: null
 plugin: help_block
 settings:

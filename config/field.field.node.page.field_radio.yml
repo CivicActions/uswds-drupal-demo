@@ -1,0 +1,23 @@
+uuid: ec6a003e-7c36-4bc5-9ab2-8157cd892a53
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_radio
+    - node.type.page
+id: node.page.field_radio
+field_name: field_radio
+entity_type: node
+bundle: page
+label: Radio
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

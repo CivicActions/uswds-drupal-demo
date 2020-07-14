@@ -1,4 +1,4 @@
-uuid: 91656020-7158-4581-8871-8d8d9c5a1e12
+uuid: 9402306a-5bb8-4f61-a70e-058babf28282
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - demo
+    - uswds_base
 _core:
-  default_config_hash: 8zRjTNbfNAJ94lQpZDu6MkyD87GYJ2zpH9VQPVmRbcM
-id: demo_footer
-theme: demo
+  default_config_hash: fe18X2hTQjshk7BVrSy8SiJPuRZKzP3KTKc5puymUOc
+id: uswds_base_footer
+theme: uswds_base
 region: footer_menu
-weight: -5
+weight: 0
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
@@ -23,5 +23,5 @@ settings:
   label_display: '0'
   level: 1
   depth: 0
-  expand_all_items: true
+  expand_all_items: false
 visibility: {  }

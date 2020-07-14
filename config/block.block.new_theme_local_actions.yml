@@ -1,15 +1,15 @@
-uuid: 4300b3b4-4c22-4a15-a457-87b7b1bb8cd3
+uuid: 4d13bf00-fa51-41b3-aa18-112d5719267a
 langcode: en
 status: true
 dependencies:
   theme:
-    - demo
+    - new_theme
 _core:
   default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
-id: demo_local_actions
-theme: demo
+id: new_theme_local_actions
+theme: new_theme
 region: content
-weight: -3
+weight: -20
 provider: null
 plugin: local_actions_block
 settings:

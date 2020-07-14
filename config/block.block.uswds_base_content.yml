@@ -1,17 +1,17 @@
-uuid: 3abb2760-68ef-4c45-b5d4-9e99d8806ef3
+uuid: d4802111-5466-4cc7-ac4d-1fb2fcc623e2
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - demo
+    - uswds_base
 _core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
-id: demo_content
-theme: demo
+  default_config_hash: sQ6LUKDmeUsq8YBZljoOOjQIyEK_GdAE9w3URLL_Iwc
+id: uswds_base_content
+theme: uswds_base
 region: content
-weight: -2
+weight: 30
 provider: null
 plugin: system_main_block
 settings:

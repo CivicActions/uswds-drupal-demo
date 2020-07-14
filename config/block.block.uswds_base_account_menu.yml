@@ -1,4 +1,4 @@
-uuid: 4f15682a-fed2-4f44-ba28-2ec8540226b6
+uuid: aa564d3b-90ee-4852-8c16-f25b7a04c715
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - demo
+    - uswds_base
 _core:
-  default_config_hash: 8a31Ywc1t2zlddGd3bmDrFMefWqgSK2E02ceFdr-bfc
-id: demo_account_menu
-theme: demo
+  default_config_hash: _rBQ8au3qhyTzqPcc2a2sAfJPQHaxzJEmMYOLvy35vY
+id: uswds_base_account_menu
+theme: uswds_base
 region: secondary_menu
 weight: 0
 provider: null

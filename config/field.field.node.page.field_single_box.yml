@@ -1,0 +1,23 @@
+uuid: 4c4ec322-b3b0-4e52-8a9e-c31b3e3c1239
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_single_box
+    - node.type.page
+id: node.page.field_single_box
+field_name: field_single_box
+entity_type: node
+bundle: page
+label: 'Single Box'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

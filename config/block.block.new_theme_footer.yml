@@ -1,4 +1,4 @@
-uuid: 91656020-7158-4581-8871-8d8d9c5a1e12
+uuid: 5e5811ef-7fa3-46d2-9cce-299aeb6e781f
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - demo
+    - new_theme
 _core:
   default_config_hash: 8zRjTNbfNAJ94lQpZDu6MkyD87GYJ2zpH9VQPVmRbcM
-id: demo_footer
-theme: demo
-region: footer_menu
-weight: -5
+id: new_theme_footer
+theme: new_theme
+region: header_top
+weight: 0
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
@@ -23,5 +23,5 @@ settings:
   label_display: '0'
   level: 1
   depth: 0
-  expand_all_items: true
+  expand_all_items: false
 visibility: {  }

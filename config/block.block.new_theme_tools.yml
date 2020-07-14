@@ -1,4 +1,4 @@
-uuid: dd21973e-62c2-41e1-a0d9-db2a5f8384b5
+uuid: 902db21c-504d-44c1-82e7-8544ec67917c
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - demo
+    - new_theme
 _core:
   default_config_hash: rH6PpAn7-RScha1rGkohGAYSSh_1OVeZzioJPzPw6O4
-id: demo_tools
-theme: demo
+id: new_theme_tools
+theme: new_theme
 region: sidebar_first
 weight: 0
 provider: null

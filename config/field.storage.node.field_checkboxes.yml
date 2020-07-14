@@ -1,0 +1,33 @@
+uuid: 9003ea86-a900-4497-ad7f-f7c4c861fb8e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_checkboxes
+field_name: field_checkboxes
+entity_type: node
+type: list_float
+settings:
+  allowed_values:
+    -
+      value: !!float 0
+      label: one
+    -
+      value: !!float 1
+      label: two
+    -
+      value: !!float 2
+      label: three
+    -
+      value: !!float 3
+      label: four
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

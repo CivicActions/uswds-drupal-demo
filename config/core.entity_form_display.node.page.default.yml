@@ -4,8 +4,16 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_area
+    - field.field.node.page.field_checkboxes
+    - field.field.node.page.field_email
+    - field.field.node.page.field_file
+    - field.field.node.page.field_number
+    - field.field.node.page.field_radio
+    - field.field.node.page.field_single_box
     - node.type.page
   module:
+    - file
     - path
     - text
 _core:
@@ -31,6 +39,55 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_area:
+    weight: 127
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_checkboxes:
+    weight: 126
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_email:
+    weight: 123
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_file:
+    weight: 124
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_number:
+    weight: 122
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_radio:
+    weight: 121
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_single_box:
+    weight: 125
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
   path:
     type: path
     weight: 30

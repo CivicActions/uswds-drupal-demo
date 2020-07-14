@@ -5,6 +5,13 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
+    - field.field.node.page.field_area
+    - field.field.node.page.field_checkboxes
+    - field.field.node.page.field_email
+    - field.field.node.page.field_file
+    - field.field.node.page.field_number
+    - field.field.node.page.field_radio
+    - field.field.node.page.field_single_box
     - node.type.page
   module:
     - text
@@ -27,4 +34,11 @@ content:
   links:
     weight: 101
     region: content
-hidden: {  }
+hidden:
+  field_area: true
+  field_checkboxes: true
+  field_email: true
+  field_file: true
+  field_number: true
+  field_radio: true
+  field_single_box: true

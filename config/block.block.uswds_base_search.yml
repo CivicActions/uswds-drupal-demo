@@ -1,23 +1,23 @@
-uuid: f0a52cdf-4abc-4ca3-a15b-d7a7a9bedc5f
+uuid: 18067120-422b-4f59-83f3-1b6496d6f06e
 langcode: en
 status: true
 dependencies:
   module:
     - search
   theme:
-    - demo
+    - uswds_base
 _core:
-  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
-id: demo_search
-theme: demo
+  default_config_hash: vTmNF6e_XzlKIeu4-KYMAFiaY5F4hPhNRtodyBYeZBw
+id: uswds_base_search
+theme: uswds_base
 region: secondary_menu
-weight: -5
+weight: 10
 provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
   label: Search
   provider: search
-  label_display: '0'
-  page_id: node_search
+  label_display: visible
+  page_id: ''
 visibility: {  }

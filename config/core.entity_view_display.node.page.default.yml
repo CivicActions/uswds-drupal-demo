@@ -4,8 +4,17 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_area
+    - field.field.node.page.field_checkboxes
+    - field.field.node.page.field_email
+    - field.field.node.page.field_file
+    - field.field.node.page.field_number
+    - field.field.node.page.field_radio
+    - field.field.node.page.field_single_box
     - node.type.page
   module:
+    - file
+    - options
     - text
     - user
 _core:
@@ -22,6 +31,66 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_area:
+    weight: 108
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_checkboxes:
+    weight: 107
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_email:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_file:
+    weight: 105
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_number:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_radio:
+    weight: 102
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_single_box:
+    weight: 106
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
   links:
     weight: 101
     region: content

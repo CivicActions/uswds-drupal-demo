@@ -1,17 +1,17 @@
-uuid: 3abb2760-68ef-4c45-b5d4-9e99d8806ef3
+uuid: df2d6fb7-d876-4c96-a405-488b77697798
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - demo
+    - new_theme
 _core:
   default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
-id: demo_content
-theme: demo
+id: new_theme_content
+theme: new_theme
 region: content
-weight: -2
+weight: 0
 provider: null
 plugin: system_main_block
 settings:
